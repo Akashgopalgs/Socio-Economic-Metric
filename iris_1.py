@@ -22,3 +22,4 @@ st.pyplot(fig)
 
 st.write(df)
 
+st.button('click me')

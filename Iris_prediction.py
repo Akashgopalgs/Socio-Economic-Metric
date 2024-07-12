@@ -1,14 +1,13 @@
 import pandas as pd
 import streamlit as st
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.datasets import load_iris
 
 
 st.title("""
 Iris Flower Prediction
 """)
 
-# function to recieve input from user
+# function to recieve input from user!pip install scikit-learn
 def user_input_features():
     form = st.form(key='iris_form')
     sepal_length = form.number_input('Sepal length (cm)', 4.3, 7.9, step=0.1)
