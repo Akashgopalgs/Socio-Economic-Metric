@@ -48,7 +48,7 @@ def predict_cluster(features):
 
 
 # Title
-st.header("Socio-Economic Metric Cluster Prediction")
+st.header("Socio-Economic Metric - Cluster Prediction")
 
 # Sidebar input for features
 st.sidebar.header("Input Features")
@@ -69,7 +69,7 @@ input_features = [child_mort, exports, health, imports, income, inflation, life_
 # Button for prediction and plot
 if st.sidebar.button('Predict Cluster'):
     cluster_label, distances, scaled_features = predict_cluster(input_features)
-    st.success(f'The predicted cluster for the input features is: {cluster_label}')
+    st.success(f'The predicted cluster for the input features is :  {cluster_label}')
 
     # Create a color map for clusters
     cmap = ListedColormap(['red', 'green', 'blue', 'orange', 'purple'])  # Adjust colors as needed
