@@ -48,7 +48,7 @@ def predict_cluster(features):
 
 
 # Title
-st.title("## Socio-Economic Metric Cluster Prediction")
+st.subheader("Socio-Economic Metric Cluster Prediction")
 
 # Sidebar input for features
 st.sidebar.header("Input Features")
