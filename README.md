@@ -23,3 +23,4 @@ This project analyzes socio-economic data from various countries to perform clus
 ## Visualizations
 - EDA: Includes bar plots and scatter plots to visualize the distribution of various socio-economic metrics across countries.
 - Clustering Results: Scatter plots to visualize the clustering results, including the distance from user inputs to cluster centers.
+ 
