@@ -10,7 +10,7 @@ This project analyzes socio-economic data from various countries to perform clus
 - app/: Contains the Streamlit application code for interactive clustering predictions.
 - scaler.pkl: Serialized StandardScaler object for feature scaling.
 - cluster_centers.pkl: Serialized cluster centers obtained from clustering.
-- cluster_labels.pkl: Serialized cluster labels for each data point.
+- cluster_labels.pkl: Serialized cluster labels for each data point. 
 ## Features
 - Exploratory Data Analysis (EDA): Visualizations of key socio-economic metrics such as Child Mortality Rate, Fertility Rate, Life Expectancy, Health Spending, etc.
 - Clustering: Agglomerative Hierarchical Clustering to group countries into clusters based on socio-economic features.
