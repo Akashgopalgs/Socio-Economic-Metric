@@ -1,6 +1,6 @@
 # Socio-Economic Metric Clustering
 ![Screenshot 2024-09-04 191044](https://github.com/user-attachments/assets/0d030ca7-4b78-43b0-955c-41598177ed66)
-
+ 
 ## Overview
 This project analyzes socio-economic data from various countries to perform clustering based on several metrics. The analysis includes exploratory data analysis (EDA), feature scaling, and clustering using Agglomerative Hierarchical Clustering. The final results are visualized, and a Streamlit app is provided to allow users to predict clusters for new data.
 
